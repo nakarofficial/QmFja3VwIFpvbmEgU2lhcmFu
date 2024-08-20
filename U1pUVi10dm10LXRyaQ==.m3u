@@ -1,4 +1,6 @@
-#EXTM3U url-tvg="https://www.bevy.be/bevyfiles/indonesia.xml"
+#EXTM3U
+
+#EXTM3U url-tvg="https://www.bevy.be/bevyfiles/indonesia.xml,https://www.bevy.be/bevyfiles/indonesiapremium1.xml"
 
 
 
@@ -7,36 +9,12 @@
 <========================= Info ======================================>
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/dQmylLC.png" group-title="INFO",Zona Siaran
-http://zs.onestopfilm.dx.am/di-zona-siaran.m3u8
+https://www.googleapis.com/drive/v3/files/1py8fRbSB23Ho8LZyGFyyZ7UvDJtdoUHY/?key=AIzaSyBHyUlE5hdcn2fPmB7dydRRwDoQIfvf8jQ&alt=media
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/dQmylLC.png" group-title="INFO",Playlist Zona Siaran
-http://zs.onestopfilm.dx.am/di-zona-siaran.m3u8
+https://www.googleapis.com/drive/v3/files/1py8fRbSB23Ho8LZyGFyyZ7UvDJtdoUHY/?key=AIzaSyBHyUlE5hdcn2fPmB7dydRRwDoQIfvf8jQ&alt=media
 
 
-
-
-
-
-
-<========================= Paris 2024 Olympics ======================================>
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/sbHB9FV.png" group-title="Olympics Paris 2024",Olimpiade Paris 2024 (RTM 1)
-https://d30aylox5wvifh.cloudfront.net/event/smil:ag1/manifest.mpd
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/U7cvVt4.png" group-title="Olympics Paris 2024",Olimpiade Paris 2024 (RTM 2)
-https://d30aylox5wvifh.cloudfront.net/event/smil:ag2/manifest.mpd
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/6cr5olp.png" group-title="Olympics Paris 2024",Olimpiade Paris 2024 (RTM 3)
-https://d30aylox5wvifh.cloudfront.net/event/smil:ag3/manifest.mpd
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/E6Hr2IC.png" group-title="Olympics Paris 2024",Olimpiade Paris 2024 (RTM 4)
-https://d30aylox5wvifh.cloudfront.net/event/smil:ag4/manifest.mpd
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/1WYzrAZ.png" group-title="Olympics Paris 2024",Olimpiade Paris 2024 (RTM 5)
-https://d30aylox5wvifh.cloudfront.net/event/smil:ag5/manifest.mpd
-
-#EXTINF:-1 tvg-logo="https://i.imgur.com/62bgT0K.png" group-title="Olympics Paris 2024",Olimpiade Paris 2024 (RTM 6)
-https://d25tgymtnqzu8s.cloudfront.net/event/smil:event1/manifest.mpd
 
 
 
@@ -79,6 +57,9 @@ https://melon-live-cdn.mncnow.id/live/eds/GTV-HD/sa_dash_vmx/GTV-HD.mpd
 #EXTINF:-1 tvg-id="TransTV" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://i.imgur.com/odSeHCG.png" group-title="Lokal",TransTV HD
 https://melon-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
 
+#EXTINF:-1 tvg-id="TransTV" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://i.imgur.com/odSeHCG.png" group-title="Lokal",TransTV HD (2)
+https://video.detik.com/transtv/smil:transtv.smil/chunklist.m3u8
+
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
 #KODIPROP:inputstream.adaptive.license_type=clearkey
@@ -87,20 +68,43 @@ https://melon-live-cdn.mncnow.id/live/eds/TransTV-2/sa_dash_vmx/TransTV-2.mpd
 #EXTINF:-1 tvg-id="Trans7" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://i.imgur.com/1iOt5XE.png" group-title="Lokal",Trans7 HD
 https://melon-live-cdn.mncnow.id/live/eds/Trans7-2/sa_dash_vmx/Trans7-2.mpd
 
+#EXTINF:-1 tvg-id="Trans7" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://i.imgur.com/1iOt5XE.png" group-title="Lokal",Trans7 HD (2)
+https://video.detik.com/trans7/smil:trans7.smil/index.m3u8
+
 #EXTINF:-1 tvg-id="SCTV - [Channel 89].id" tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" tvg-logo="https://i.imgur.com/aDR4GK2.png" group-title="Lokal",SCTV 
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
 http://op-group1-swiftservehd-1.dens.tv/h/h217/index.m3u8
 
+#EXTVLCOPT:http-referrer=https://www.cubmu.com/
+#KODIPROP:inputstreamaddon=inputstream.adaptive 
+#EXTHTTP:{"dt-custom-data":"eyJ1c2VySWQiOiJyZWFjdC1qdy1wbGF5ZXIiLCJzZXNzaW9uSWQiOiIxMjM0NTY3ODkiLCJtZXJjaGFudCI6ImdpaXRkX3RyYW5zdmlzaW9uIn0="}
+#KODIPROP:inputstream.adaptive.manifest_type=dash
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.license_key=https://cubum.iptvgo.workers.dev/
+#KODIPROP:inputstream.adaptive.license_key=https://lic-cubmux.konslet.workers.dev/4rr0w/play.wv
+#KODIPROP:inputstream.adaptive.license_key=https://worker-little-bread-fe1e.aimiemah.workers.dev/
+#EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
+#EXTINF:-1 tvg-id="SCTV - [Channel 89].id" tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" tvg-logo="https://i.imgur.com/aDR4GK2.png" group-title="Lokal",SCTV (2)
+https://cdnjkt4.transvision.co.id:1000/live/master/5/4028c6856c3db2cc016cd6e647532391/manifest.mpd
+
+#EXTVLCOPT:http-referrer=https://www.dens.tv/
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
 #EXTINF:-1 tvg-id="Indosiar - [Channel 78].id" tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" tvg-logo="https://i.imgur.com/8uicpNS.png" group-title="Lokal",Indosiar
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:101.0) Gecko/20100101 Firefox/101.0
-http://op-group1-swiftservehd-1.dens.tv/h/h207/index.m3u8
+http://op-group1-swiftservesd-1.dens.tv/s/s04/index.m3u8?app_type=web&userid=lite&chname=Indosiar
 
 #EXTINF:-1 tvg-id="Indosiar - [Channel 78].id" tvg-url="https://www.bevy.be/bevyfiles/indonesia.xml" tvg-logo="https://i.imgur.com/8uicpNS.png" group-title="Lokal",Indosiar (2)
 http://aflaxtv.xyz:8080/2c258a9b/c73f1cfbce/162138
 
-#EXTINF:-1 tvg-logo="https://i.imgur.com/R69y43e.png" tvg-id="Moji" group-title="Lokal",Moji
-#EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-http://103.155.250.139:25461/v3/Ub5dHa4TJp/04
+#EXTVLCOPT:http-referrer=https://www.indihometv.com
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.stream_headers=user-agent=MaxStreamPlayer/3.1.4 (Linux;Android 12) ExoPlayerLib/2.9.6 VLC
+#EXTVLCOPT:http-user-agent=VLC Mozilla/5.0 (Windows NT 6.1; rv:109.0) Gecko/20100101 Firefox/115.0
+#EXTINF:-1 tvg-id="Moji" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium1.xml" tvg-logo="https://i.imgur.com/R69y43e.png" group-title="Lokal",Moji
+https://cdn09jtedge.indihometv.com/joss/134/ochannel720/index.m3u8
 
 #EXTINF:-1 tvg-logo="https://i.imgur.com/R69y43e.png" tvg-id="Moji" group-title="Lokal",Moji (2)
 #EXTVLCOPT:http-user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 
@@ -138,9 +142,13 @@ https://op-group1-swiftservehd-1.dens.tv/s/s07/01.m3u8
 #EXTINF:-1 tvg-id="Rajawali TV" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://i.imgur.com/XGcx6WY.png" group-title="Lokal",RTV
 https://melon-live-cdn.mncnow.id/live/eds/RTV/sa_dash_vmx/RTV.mpd
 
+#EXTVLCOPT:http-referrer=https://www.indihometv.com
+#KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
+#KODIPROP:inputstream.adaptive.license_type=clearkey
+#KODIPROP:inputstream.adaptive.stream_headers=user-agent=MaxStreamPlayer/3.1.4 (Linux;Android 12) ExoPlayerLib/2.9.6 VLC
+#EXTVLCOPT:http-user-agent=VLC Mozilla/5.0 (Windows NT 6.1; rv:109.0) Gecko/20100101 Firefox/115.0
 #EXTINF:-1 tvg-id="Rajawali TV" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://i.imgur.com/XGcx6WY.png" group-title="Lokal",RTV (2)
-#EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36 
-http://210.210.155.37/session/01ec4c78-827b-11ee-93b3-aa38b7050ceb/uq2663/h/h10/02.m3u8
+https://cdn09jtedge.indihometv.com/joss/130/rtv/index.m3u8
 
 #EXTVLCOPT:http-referrer=https://www.visionplus.id/
 #KODIPROP:inputstream.adaptive.license_type=com.widevine.alpha
@@ -216,7 +224,7 @@ https://b1news.beritasatumedia.com/Beritasatu/B1News_960x540.m3u8
 
 #EXTINF:-1 tvg-id="Nusantara TV" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://images.indihometv.com/logo_nusantaratv_small.png?v=1.1" group-title="Lokal",Nusantara TV
 #EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://v5.siar.us/nusantaratv/live/chunks.m3u8
+https://nusantaratv.siar.us/nusantaratv/live/playlist.m3u8
 
 #EXTINF:-1 tvg-id="Indonesiana TV" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://images.indihometv.com/logo_indonesiana_ver1.png" group-title="Lokal",Indonesiana TV
 #EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
@@ -229,10 +237,6 @@ https://dgwubfppws111.cloudfront.net/out/v1/667a86e35ddd496c886fa11598dc184d/ind
 #KODIPROP:inputstream.adaptive.license_key=https://mrpw.ptmnc01.verspective.net/?deviceId=NzEwNGYwNjEtNzBjNC0zNmJjLTkwZGMtMGQ1Yjg3ZWJhZTBi
 #EXTINF:-1 tvg-id="Daai TV" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://images.indihometv.com/logo_daaitv_small1.png?v=2.0.0.13" group-title="Lokal",DAAI TV
 https://melon-live-cdn.mncnow.id/live/eds/DAAITV/sa_dash_vmx/DAAITV.mpd
-
-#EXTINF:-1 tvg-id="Daai TV" tvg-url="https://www.bevy.be/bevyfiles/indonesiapremium3.xml" tvg-logo="https://images.indihometv.com/logo_daaitv_small1.png?v=2.0.0.13" group-title="Lokal",DAAI TV (2)
-#EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
-https://dacastmmd.mmdlive.lldns.net/dacastmmd/683cc426c19442a4ba31c53be5c963bb/chunklist_b2592000.m3u8?p=79&s=1714410879&e=1714410999&h=6fbcb544cf75502b6db2cdffab4f41b8
 
 #EXTINF:-1 group-title="Lokal" tvg-id="" tvg-url="" tvg-logo="https://www.lyngsat.com/logo/tv/mm/metro-globe-network-id.png",Metro Globe Network
 #EXTVLCOPT:http-user-agent=VLC/3.0.9 LibVLC/3.0.9 Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/109.0.0.0 Safari/537.36
